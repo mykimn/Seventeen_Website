@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Nanum+Gothic|Song+Myung|Anton|Passion+One|Archivo+Black');
+header{
+	background-color:white;
+	width:100%;
+	height:90px;
+	background-image:url(media/wow1.jpg);
+    background-size: 100% 100%;
+    min-width: 100%;
+ 	min-height: 100%;
+ 	font-color:white;
+ 	background-image:contain;
+}
+header:hover{
+	background-color: white;
+	font-color: black;
+	background-image: none;
+}
+header:hover > a{
+	background: -webkit-linear-gradient(20deg, rgb(245,201,201), rgb(145,166,207));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+header a{
+	font-family:"Archivo Black";
+	font-size:35px;
+    margin-left: 230px;
+    margin-top:30px;
+    padding:100px;
+	text-decoration:none;
+	color:white;
+	line-height: 100px;
+	hover: white;
+}
+.menu{
+	line-height:10px;
+	font-size:medium;
+	margin-left:-100px;
+}
+article{
+	width: 100%;
+	height: 850px;
+	background-size: 100% 100%;
+}
+footer{
+	margin-top:-5px;
+	clear:both;
+	height:140px;
+	width:100%;
+	background-color:#282828;
+	color:white;
+	text-shadow:2px 2px 3px gray;
+}

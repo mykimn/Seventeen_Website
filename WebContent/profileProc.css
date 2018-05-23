@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Nanum+Gothic|Song+Myung|Anton|Passion+One|Archivo+Black');
+* {
+	letter-spacing:2px;
+	font-family:"Nanum Gothic";
+	font-size:large;
+}
+.profile{
+	margin-top:-25px;
+	width:100%;
+	height:500px;
+	margin-left:0px;
+	background-image:url(media/to1.png);
+	background-size:100% 100%;
+}
+.content{
+	margin-top:10px;
+	font-size:20px;
+	width:100%;
+	height:400px;
+}
+h1.title {
+	letter-spacing:1px;
+	margin-top:15px;
+	text-shadow:1px 1px 2px #666666; color:white; padding-top:7%; text-align:center;
+	font-size:100px;
+}
+h3.title {
+	margin-top:-50px;
+	text-shadow:1px 1px 2px #666666; color:white; text-align:center;
+	font-size:22px;
+}
+header{
+	background-color:white;
+	width:100%;
+	height:90px;
+	background-image:url(media/wow1.jpg);
+    background-size: 100% 100%;
+    min-width: 100%;
+ 	min-height: 100%;
+ 	font-color:white;
+ 	background-image:contain;
+}
+header:hover{
+	background-color: white;
+	font-color: black;
+	background-image: none;
+}
+header:hover > a{
+	background: -webkit-linear-gradient(20deg, rgb(245,201,201), rgb(145,166,207));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+header a{
+	font-family:"Archivo Black";
+	font-size:35px;
+    margin-left: 230px;
+    margin-top:30px;
+    padding:100px;
+	text-decoration:none;
+	color:white;
+	line-height: 100px;
+	hover: white;
+}
+.menu{
+	line-height:10px;
+	font-size:medium;
+	margin-left:-100px;
+}
+article{
+	width: 100%;
+	height: 850px;
+	background-size: 100% 100%;
+}
+footer{
+	margin-top:80%;
+	clear:both;
+	height:140px;
+	width:100%;
+	background-color:#282828;
+	color:white;
+	text-shadow:2px 2px 3px gray;
+}
+.svt{
+	margin-top:80px;
+}
+.svt1{
+	margin-top: -10px;
+	font-size:30px;
+}
+pre{
+	font-size:15px;
+	margin-left:20%;
+	line-height:15px;
+	margin-bottom:-0.8%;
+}
+.hr1{
+	width:28%;
+	margin-left:20%;
+	margin-top:2%;
+}
